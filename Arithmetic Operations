@@ -1,0 +1,18 @@
+public class ArithmeticOperationsWithoutScanner {
+public static void main(String[] args) {
+double num1 = 10;
+double num2 = 5;
+double addResult = num1 + num2;
+System.out.println("Addition: " + num1 + " + " + num2 + " = " + addResult);
+ double subtractResult = num1 - num2;
+        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + subtractResult);
+ double multiplyResult = num1 * num2;
+        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + multiplyResult);
+if (num2 != 0) {
+double divideResult = num1 / num2;
+System.out.println("Division: " + num1 + " / " + num2 + " = " + divideResult);
+} else {
+System.out.println("Error: Division by zero is not allowed.");
+        }
+    }
+}
